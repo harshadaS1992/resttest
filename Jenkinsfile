@@ -10,7 +10,7 @@ pipeline {
             steps {
                 dir('RestTesting') {
                    sh "pwd"
-                   sh "mvn clean install"
+                   sh "mvn install"
                   }
               
                 
