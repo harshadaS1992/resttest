@@ -8,10 +8,12 @@ pipeline {
         }
          stage('run') {
             steps {
-                cd RestTesting
-                sh "ls -l"
-                sh "mvn clean install"
-                echo 'Hello World'
+                dir('your-sub-directory') {
+                   sh "pwd"
+                   sh "mvn clean install"
+                  }
+              
+                
             }
         }
     }
