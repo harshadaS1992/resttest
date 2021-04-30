@@ -8,7 +8,7 @@ pipeline {
         }
          stage('run') {
             steps {
-                dir('your-sub-directory') {
+                dir('RestTesting') {
                    sh "pwd"
                    sh "mvn clean install"
                   }
