@@ -10,7 +10,7 @@ pipeline {
             steps {
                 dir('RestTesting') {
                    sh "pwd"
-                   sh "mvn install"
+                   sh "mvn integration-test"
                   }
               
             }
