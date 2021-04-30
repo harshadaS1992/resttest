@@ -8,6 +8,8 @@ pipeline {
         }
          stage('run') {
             steps {
+                sh "cd RestTesting"
+                sh "mvn clean install"
                 echo 'Hello World'
             }
         }
