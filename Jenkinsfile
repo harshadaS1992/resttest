@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 boklllouopipeline {
+=======
+pipeline {
+>>>>>>> parent of ef830f7... boo
     agent any
     stages {
         stage('clone') {
