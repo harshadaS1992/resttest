@@ -1,4 +1,4 @@
-bokouopipeline {
+boklllouopipeline {
     agent any
     stages {
         stage('clone') {
