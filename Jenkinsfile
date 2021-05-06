@@ -1,4 +1,4 @@
-boopipeline {
+bouopipeline {
     agent any
     stages {
         stage('clone') {
